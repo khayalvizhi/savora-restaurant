@@ -6,7 +6,7 @@ browse food categories, and provides a shopping-cart experience.
 
 ## Live Demo
 
-[View SAVORA on Netlify](https://vocal-cuchufli-2aa7c2.netlify.app/)
+[View SAVORA on Vercel](https://savora-restaurant-pi.vercel.app/)
 
 ## Features
 
@@ -92,23 +92,11 @@ npm run preview
 
 ## Deployment
 
-SAVORA is deployed using Netlify.
+Deployed on **Vercel** with automatic deployments integrated through GitHub.
 
-Typical Netlify build settings:
-
-  Setting             Value
-  ------------------- --------------------------------------------------
-  Build command       `npm run build`
-  Publish directory   `dist`
-  Base directory      Leave empty if the app is at the repository root
-
-A `public/_redirects` file with the following rule can be used to
-support direct navigation and page refreshes with React Router on
-Netlify:
-
-``` text
-/*  /index.html  200
-```
+- **Framework:** Vite + React
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
 
 ## Project Structure
 
